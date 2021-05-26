@@ -1,0 +1,12 @@
+.nav-item {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.login {
+  margin-left: 50vw;
+}
+
+.navbar-brand {
+  margin-left: 10vw;
+}

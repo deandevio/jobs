@@ -12,11 +12,14 @@ dotenv.config({ path: "config/config.env" });
 // View engine
 app.set("view engine", "ejs");
 
-// Router
-app.use("/", router);
-
 // Middeware
 app.use(express.static("public"));
+app.use(express.json());
+app.use(express.urlencoded({ extended: true }));
+app.use(express.static("public"));
+
+// Router
+app.use("/", router);
 
 // Connect to DB
 DB_CONNECT();
