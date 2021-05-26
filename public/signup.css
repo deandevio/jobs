@@ -1,0 +1,31 @@
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.formdiv {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  display: flex;
+  justify-content: center;
+}
+
+input {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.email {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.pass {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
